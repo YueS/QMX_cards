@@ -1,0 +1,352 @@
+*{margin: 0;padding: 0}
+a{text-decoration: none;color: inherit;}
+ul,ol{list-style: none}
+body{
+    font-size: 16px;
+    color: #000000;
+    font-family:"Microsoft YaHei,黑体";
+    background: #727272;
+    position: relative;
+}
+.del{
+    text-decoration: line-through;
+}
+.red{
+    color: red;
+}
+.hide{
+    display: none;
+}
+.rol_hide{
+    background: #727272;
+    color: #000000;
+    text-decoration: line-through;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background: #3385ff;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    overflow: hidden;
+}
+header .nav{
+    max-width: 768px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header .nav span{
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 27px;
+    margin:7px 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header .click0,header .click00{
+    background: #ff9900;
+    color: #0A1800;
+}
+.wrap{
+    z-index: 2;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 45px auto;
+    max-width: 1000px;
+}
+div.card1,.cards_wrap{
+    position: relative;
+    width: 96%;
+    margin: 2px auto;
+    background: #f7f7f7;
+    color: black;
+    overflow: hidden;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+/*说明框体*/
+.cards_wrap{
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+.ind_a{
+    display: block;
+    text-align: center;
+    width: 96%;
+    max-width: 200px;
+    font-size: 12px;
+    line-height: 2em;
+    height: 2em;
+    background: #3385FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin: 5px 10px 1px;
+}
+
+
+/*联动盒子壕卡底色*/
+div .card_c{
+    background:#FFF180;
+}
+div .card_b{
+    background: #b1d6ff;
+}
+
+.card1 .title_card{
+    overflow: hidden;
+    width: 90%;
+    margin: 20px auto;
+}
+.card1 .title_card .title_img{
+    overflow: hidden;
+    width: 33%;
+    float: left;
+}
+.cards_wrap .title_card .title_img{
+    overflow: hidden;
+    width: 33%;
+    float: left;
+}
+.card1 .title_card .card_title{
+    width: 60%;
+    float: right;
+    font-size: 16px;
+}
+.card1 .title_card .card_title span{
+    line-height: 1.5em;
+    display: inline-block;
+}
+.cards_wrap .title_card .card_title2{
+    width: 60%;
+    float: right;
+    font-size: 16px;
+}
+.cards_wrap .title_card .card_title2 span{
+    line-height: 2em;
+    display: block;
+    font-size: 13px;
+}
+.skill_wrap{
+    margin-bottom: 20px;
+}
+.skill{
+    width: 90%;
+    margin: 3px auto;
+}
+
+
+
+
+.card .title_card img{
+    display: none;
+}
+.card .skill_wrap{
+    display: none;
+}
+.card .title_card .card_title{
+    width: 100%;
+}
+.card1 .title_card .card_title>span.name{
+    display: block;
+}
+.card1 .title_card .card_title>span.type{
+    display: block;
+}
+.card .title_card .card_title span{
+    display: inline;
+}
+
+
+
+
+.card .title_card .card_title span:nth-child(3){
+    margin-left: 20px;
+    color:#3385ff;
+}
+div.cards_title_s{
+    position: relative;
+    width: 96%;
+    max-width: 200px;
+    margin: 5px 10px 1px;
+    background: #f7f7f7;
+    color: black;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 2em;
+    background: #3385FF;
+    border-radius: 5px;
+}
+div.cards_title_s span{
+	display:block;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.card_old_hide{
+	display:none;
+}
+
+
+
+
+
+/*爬塔推荐界面*/
+.tower{
+	position: relative;
+    width: 96%;
+    margin: 2px auto;
+    background: #f7f7f7;
+    color: black;
+    overflow: hidden;
+    font-size: 18px;
+}
+.tower h2{
+	line-height: 4em;
+	font-size: 18px;
+	text-align: center;
+}
+.tower h3{
+	font-size: 16px;
+	width: 100%;
+	text-align: center;	
+	border-top: 1px solid #000000;
+	margin-top: 5px;
+}
+.tower h4{
+	width: 100%;
+	/*text-align: center;*/
+    text-align: left;
+	font-size: 12px;
+    margin-left: -5px;
+}
+.tower table tr th{
+	text-align: center;
+}
+.tower table tr{
+	width: 100%;
+}
+.tower table tr td{
+	width:20%;
+}
+.tower table tr td img{
+	width: 100%;
+}
+.tower table tr td span{
+	display: inline-block;
+	overflow: hidden;
+	width: 90%;
+	font-size:10px;
+	margin: 2px auto;
+	height: 5em;
+}
+.tower>p.gonggao{
+    margin: 10px;
+    font-size: 12px;
+}
+/*.btn_ts{*/
+    /*width: 50px;*/
+    /*height:2em;*/
+    /*line-height: 2em;*/
+    /*background: #3385FF;*/
+    /*color: #FFFFFF;*/
+
+/*}*/
+/*.btn_tsx{*/
+    /*display: none;*/
+    /*width: 50px;*/
+    /*height:2em;*/
+    /*line-height: 2em;*/
+    /*background: #ff9900;*/
+    /*color: #000000;*/
+    /*text-decoration:line-through;*/
+/*}*/
+
+/*顶部底部箭头*/
+div.move{
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    left: 1px;
+    width: 14px;
+    top: 50%;
+    z-index: 99;
+    background: #FFFFFF;
+    /*border: 1px solid #000000;*/
+    border: 1px solid #ff9900;
+    border-radius: 5px;
+}
+.move a{
+    display: inline-block;
+    width: 14px;
+    text-align: center;
+    color: #ff9900;
+    font-weight: bold;
+}
+
+
+/*公告界面*/
+.cnt_s_gg{
+    position: relative;
+    width: 96%;
+    height: 98vh;
+    margin: 1vh auto;
+    background: #f7f7f7;
+    color: black;
+    /*overflow: hidden;*/
+    font-size: 18px;
+    position: relative;
+    overflow: auto;
+}
+.cnt_s_gg>p{
+    margin: 12px;
+    font-size: 13px;
+}
+.cnt_s_gg_s1{
+    position: fixed;
+    z-index: 1;
+    width: 96%;
+    height: 98vh;
+    background-color:#464646;
+    background: url("../images/MX720.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*opacity: 0.7;*/
+}
+.cnt_s_gg_s2{
+    z-index: 2;
+    position: fixed;
+    width: 96%;
+    height: 98vh;
+    background: rgba(247,247,247,0.7);
+    overflow: auto;
+}
+.cnt_s_gg h2{
+    line-height: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+ul.cnt_s_gg_ul{
+    width: 90%;
+    margin:20px auto;
+}
+ul.cnt_s_gg_ul>li{
+    margin: 5px 10px;
+    line-height: 2em;
+    height: 2em;
+}

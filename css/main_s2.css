@@ -1,0 +1,79 @@
+*{margin: 0;padding: 0}
+a{text-decoration: none;color: inherit;}
+ul,ol{list-style: none}
+body{
+    font-size: 16px;
+    color: #000000;
+    font-family:"Microsoft YaHei,黑体";
+    background: #727272;
+    position: relative;
+}
+img{
+    border: none;
+    outline: none;
+}
+
+/*卡片容器*/
+div.wrap{
+    width: 1000px;
+    min-height: 1500px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+}
+
+/*顶部底部箭头*/
+div.move_s{
+    /*display: block;*/
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    right: 7px;
+    width: 20px;
+    top: 50%;
+    z-index: 99;
+    background: #FFFFFF;
+    border: 1px solid #3962ff;
+    border-radius: 5px;
+}
+.move_s a{
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    color: #3962ff;
+    font-weight: bold;
+}
+
+
+/*公告界面*/
+.cnt_s_gg{
+    position: relative;
+    width: 96%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #f7f7f7;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    overflow: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 3px;
+    -moz-box-shadow: 3px 3px 3px;
+    box-shadow: 3px 3px 3px;
+}
+
+.cnt_s_gg h2{
+    line-height: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+ul.cnt_s_gg_ul{
+    width: 90%;
+    margin:20px auto;
+}
+ul.cnt_s_gg_ul>li{
+    margin: 5px 10px;
+    line-height: 2em;
+    height: 2em;
+}
